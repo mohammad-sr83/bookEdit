@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "iranyekan";
+    font-style: "bold";
+    font-weight: 700;
+    font-display: swap;
+    src: url(/font/iranyekanwebbold.woff2) format("woff2");
+  }
+
+  @font-face {
+    font-family: "iranyekan";
+    font-style: "medium";
+    font-weight: 500;
+    font-display: swap;
+    src: url(/font/iranyekanwebmedium.woff) format("woff2");
+  }
+
+  @font-face {
+    font-family: "iranyekan";
+    font-style: "regular";
+    font-weight: 400;
+    font-display: swap;
+    src: url(/font/iranyekanwebregular.woff2) format("woff2");
+  }
+}
+
+:root {
+  --color_Scroll: "#fff";
+}
+
+.darkmode {
+  --color_Scroll: "#000";
+}
+
+.bgImage {
+  background-image: url(/image/petreen.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text-wrap {
+  word-wrap: break-word;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #444444;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--color_Scroll);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #444444;
+}
+
+.MuiDrawer-paper {
+  position: fixed;
+  background-color: #2a3592;
+  overflow-y: hidden;
+  color: #ffffff;
+  right: 0;
+  top: 0;
+  transition: "width 0.3s ease-in-out";
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.MuiToolbar-root h6.MuiTypography-h6 {
+  color: #ffffff;
+}
+
+.MuiDrawer-paper .MuiBox-root .MuiButtonBase-root .MuiSvgIcon-root,
+.MuiToolbar-root .MuiButtonBase-root .MuiSvgIcon-root {
+  fill: #ffffff;
+}
+
+.MuiStepper-root .MuiStep-horizontal {
+  padding-right: 0px;
+}
+
+.MuiStepper-root .MuiStepLabel-iconContainer {
+  padding-right: 0px;
+}
+
+.MuiCollapse-wrapperInner .MuiList-root {
+  border-radius: 8px;
+  padding-bottom: 3px;
+  margin-right: 25px;
+  margin-left: 15px;
+}
+
+.MuiListItem-root .MuiListItem-gutters {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.MuiListItem-root .MuiButtonBase-root{
+  display: flex;
+  justify-content: center;
+}
+
+.MuiListItemText-root .MuiTypography-root{
+  margin-right: 10px;
+}
+
+.react-transform-wrapper {
+  width: 100% !important;
+  height: 100% !important;
+  display: flex;
+  justify-content: flex-end;
+}

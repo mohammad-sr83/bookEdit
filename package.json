@@ -1,0 +1,50 @@
+{
+  "name": "mengment_app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@date-io/date-fns-jalali": "^3.1.1",
+    "@date-io/dayjs": "^3.0.0",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.1.7",
+    "@mui/lab": "^6.0.0-beta.15",
+    "@mui/material": "^6.1.7",
+    "@mui/x-data-grid": "^7.22.3",
+    "@mui/x-date-pickers": "^7.22.2",
+    "@toolpad/core": "^0.12.0",
+    "axios": "^1.7.8",
+    "date-fns-jalali": "^3.2.0-0",
+    "dayjs": "^1.11.13",
+    "quill": "^2.0.3",
+    "quill-better-table": "^1.2.10",
+    "quill-image-resize": "^3.0.9",
+    "jalaliday": "^2.3.0",
+    "js-cookie": "^3.0.5",
+    "next": "^15.0.3",
+    "react": "^18.3.1",
+    "react-arborist": "^3.4.0",
+    "react-dom": "^18.3.1",
+    "react-zoom-pan-pinch": "^3.4.4",
+    "stylis": "^4.3.4",
+    "stylis-plugin-rtl": "^2.1.1",
+    "swr": "^2.2.5",
+    "zod": "^3.23.8",
+    "zustand": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/stylis": "^4.2.6",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
